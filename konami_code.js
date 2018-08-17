@@ -17,10 +17,10 @@ function init() {
     const key = e.key;
     if(codes[index] === key){
       index++;
-      console.log(index);
+      console.log(key);
         if (index === codes.length){
     alert('Hurray!');
-    console.log('Hurray!')
+    console.log('Hurray!');
     index = 0;
   }
     }else{
